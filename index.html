@@ -9,14 +9,16 @@
 </head>
 <body>
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
-    <div class="page">
-        <main class="container">
 
+    <div class="page">
+
+        <aside class="sidebar">
             <section class="profile">
                 <div class="avatar-wrap">
                     <img src="media/avatar.jpg" alt="Timofei Kupriianov" class="avatar"
                          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
                     <div class="avatar-initials">TK</div>
+                    <span class="online-dot"></span>
                 </div>
                 <h1 class="name">Timofei Kupriianov</h1>
                 <p class="handle">@timofei_ios</p>
@@ -25,8 +27,7 @@
 
             <section class="links">
                 <div class="links-header">
-                    <span class="links-label">LINKS &amp; WALLETS</span>
-                    <span class="links-count">08 / 08</span>
+                    <span class="links-label">ELSEWHERE</span>
                 </div>
                 <div class="card">
 
@@ -38,10 +39,10 @@
                         </div>
                         <div class="row-info">
                             <span class="row-title">LinkedIn</span>
-                            <span class="row-sub">linkedin.com/in/timofei-kupriianov</span>
+                            <span class="row-sub">in/timofei-kupriianov</span>
                         </div>
                         <svg class="arrow" width="7" height="12" viewBox="0 0 7 12" fill="none">
-                            <path d="M1 1l5 5-5 5" stroke="#C5BEB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a>
 
@@ -58,7 +59,7 @@
                             <span class="row-sub">@timofei_ios</span>
                         </div>
                         <svg class="arrow" width="7" height="12" viewBox="0 0 7 12" fill="none">
-                            <path d="M1 1l5 5-5 5" stroke="#C5BEB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a>
 
@@ -76,7 +77,7 @@
                             <span class="row-sub">timofei.ios@proton.me</span>
                         </div>
                         <svg class="arrow" width="7" height="12" viewBox="0 0 7 12" fill="none">
-                            <path d="M1 1l5 5-5 5" stroke="#C5BEB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a>
 
@@ -93,7 +94,7 @@
                             <span class="row-sub">github.com/quadyyyy</span>
                         </div>
                         <svg class="arrow" width="7" height="12" viewBox="0 0 7 12" fill="none">
-                            <path d="M1 1l5 5-5 5" stroke="#C5BEB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a>
 
@@ -155,19 +156,124 @@
                         </div>
                         <div class="row-info">
                             <span class="row-title">Spotify</span>
-                            <span class="row-sub">open.spotify.com/user/...</span>
+                            <span class="row-sub">open.spotify.com</span>
                         </div>
                         <svg class="arrow" width="7" height="12" viewBox="0 0 7 12" fill="none">
-                            <path d="M1 1l5 5-5 5" stroke="#C5BEB4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a>
 
                 </div>
             </section>
+        </aside>
 
-            <footer>made with ❤️</footer>
+        <main class="project-main">
+            <div class="project-top-bar">
+                <span class="section-label">LATEST PROJECT</span>
+            </div>
+
+            <div class="project-card">
+
+                <div class="project-hero">
+                    <img src="media/flocus_project/AppIcon.png" alt="Flocus icon" class="project-icon">
+                    <div class="project-hero-info">
+                        <div class="project-title-row">
+                            <h2 class="project-title">Flocus</h2>
+                            <div class="project-tags">
+                                <span class="proj-tag"><span class="tag-dot"></span>iOS</span>
+                                <span class="proj-tag">personal</span>
+                            </div>
+                        </div>
+                        <p class="project-desc">A lightweight iOS app for tracking tasks and building habits — without the clutter.</p>
+                        <div class="project-actions">
+                            <a href="https://github.com/quadyyyy/Flocus" target="_blank" rel="noopener" class="btn-primary">View on GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-sep"></div>
+
+                <div class="project-section">
+                    <span class="section-label">SCREENSHOTS</span>
+                    <div class="screenshots-row">
+                        <img src="media/flocus_project/TodayView.png" alt="Today" class="screenshot">
+                        <img src="media/flocus_project/CalendarView.png" alt="Calendar" class="screenshot">
+                        <img src="media/flocus_project/SelectedDateView.png" alt="Date" class="screenshot">
+                        <img src="media/flocus_project/PomodoroView.png" alt="Pomodoro" class="screenshot">
+                        <img src="media/flocus_project/ProfileView.png" alt="Profile" class="screenshot">
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <span class="section-label">FEATURES</span>
+                    <p class="features-intro">Flocus keeps it simple: plan your day, stay focused, and build a streak.</p>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Onboarding</p>
+                            <p class="feature-desc">4-step setup: welcome, app intro, name, avatar.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Today</p>
+                            <p class="feature-desc">Tasks due today and overdue items, with a progress card and daily streak.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Calendar</p>
+                            <p class="feature-desc">Browse and manage tasks for any date.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Pomodoro</p>
+                            <p class="feature-desc">Classic 25/5/15-minute timer with auto phase switching and session tracking.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Streak</p>
+                            <p class="feature-desc">Consecutive day streak for completing tasks.</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-dot"></span>
+                            <p class="feature-title">Profile</p>
+                            <p class="feature-desc">Stats overview (completed tasks, focus time, streak) and achievements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-bottom-grid">
+                    <div class="project-section">
+                        <span class="section-label">TECH STACK</span>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">SwiftUI</span>
+                            <span class="tech-tag">UIKit</span>
+                            <span class="tech-tag">SwiftData</span>
+                            <span class="tech-tag">UserDefaults</span>
+                            <span class="tech-tag">Swift Testing</span>
+                        </div>
+                    </div>
+                    <div class="project-section">
+                        <span class="section-label">ARCHITECTURE</span>
+                        <ul class="arch-list">
+                            <li><code>MVVM</code> — each screen has a dedicated ViewModel managing state and business logic.</li>
+                            <li><code>Repository pattern</code> — <code>TaskRepository</code> and <code>StatsRepository</code> abstract data sources behind protocols.</li>
+                            <li><code>Dependency injection</code> — repositories are injected via <code>setup()</code>, making ViewModels fully testable with mocks.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card-footer">
+                    <span><strong>Xcode</strong> 26+ &nbsp;&nbsp; <strong>Swift</strong> 6+</span>
+                    <span>License · MIT</span>
+                </div>
+
+            </div>
         </main>
+
     </div>
+
+    <footer class="page-footer">made with care · 2026 · tkupriianov</footer>
 
     <script>
         function copyAddr(btn) {
